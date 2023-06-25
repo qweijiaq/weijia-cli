@@ -1,6 +1,9 @@
 #! /user/bin/env node
 
-const uitls = require("@weijia-cli/utils");
+const importLocal = require("import-local");
 
-utils();
-console.log("hello weijia-cli");
+if (importLocal(__filename)) {
+  require("npmlog").info("cli", "正在使用 weijia-cli 本地版本");
+} else {
+  require("../lib")(process.argv.slice(2));
+}

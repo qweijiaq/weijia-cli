@@ -20,7 +20,9 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@weijia-cli/utils": "file:../utils/utils"
+    "@weijia-cli/utils": "file:../../utils/utils",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1"
   },
   "gitHead": "9457006829473e3ba036635d807af224b3e6b83d",
   "publishConfig": {

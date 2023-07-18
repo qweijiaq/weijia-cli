@@ -1,6 +1,6 @@
 {
   "name": "@weijia-cli/exec",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "weijia-cli execute package",
   "author": "WeiJia <2112025700@qq.com>",
   "homepage": "https://github.com/qweijiaq/weijia-cli#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/qweijiaq/weijia-cli/issues"
   },
   "dependencies": {
-    "@weijia-cli/package": "file:../../models/package",
-    "@weijia-cli/log": "file:../../utils/log"
+    "@weijia-cli/log": "file:../../utils/log",
+    "@weijia-cli/package": "file:../../models/package"
   }
 }

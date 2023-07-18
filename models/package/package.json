@@ -1,6 +1,6 @@
 {
   "name": "@weijia-cli/package",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "weijia-cli npm modules",
   "author": "WeiJia <2112025700@qq.com>",
   "homepage": "https://github.com/qweijiaq/weijia-cli#readme",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@weijia-cli/format-path": "file:../../utils/format-path",
-    "@weijia-cli/utils": "file:../../utils/utils",
     "@weijia-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@weijia-cli/utils": "file:../../utils/utils",
     "npminstall": "^7.9.0",
     "pkg-dir": "5.0.0"
   }

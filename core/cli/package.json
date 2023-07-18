@@ -1,6 +1,6 @@
 {
   "name": "@weijia-cli/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "weijia-cli core",
   "author": "weijia <2112025700@qq.com>",
   "homepage": "",
@@ -20,11 +20,11 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@weijia-cli/log": "file:../../utils/log",
-    "@weijia-cli/utils": "file:../../utils/utils",
+    "@weijia-cli/exec": "file:../exec",
     "@weijia-cli/get-npm-info": "file:../../utils/get-npm-info",
     "@weijia-cli/init": "file:../../commands/init",
-    "@weijia-cli/exec": "file:../exec",
+    "@weijia-cli/log": "file:../../utils/log",
+    "@weijia-cli/utils": "file:../../utils/utils",
     "colors": "^1.4.0",
     "dotenv": "^16.3.1",
     "import-local": "^3.1.0",
